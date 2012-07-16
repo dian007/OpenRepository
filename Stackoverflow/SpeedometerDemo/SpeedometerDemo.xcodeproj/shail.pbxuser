@@ -1,0 +1,206 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SpeedometerDemoAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 619}}";
+			sepNavSelRange = "{56, 0}";
+			sepNavVisRange = "{0, 426}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SpeedometerDemoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2523, 1548}}";
+			sepNavSelRange = "{59, 0}";
+			sepNavVisRange = "{0, 1005}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SpeedometerDemo */ = {
+		activeExec = 0;
+		executables = (
+			46CCD8AD1504A59F00B18D34 /* SpeedometerDemo */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* SpeedometerDemoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 630}}";
+			sepNavSelRange = "{254, 1}";
+			sepNavVisRange = "{3, 829}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* SpeedometerDemoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1560, 4230}}";
+			sepNavSelRange = "{4823, 0}";
+			sepNavVisRange = "{4760, 93}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 46CCD8AD1504A59F00B18D34 /* SpeedometerDemo */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SpeedometerDemo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SpeedometerDemo */,
+		);
+		codeSenseManager = 46CCD8B81504A5C100B18D34 /* Code sense */;
+		executables = (
+			46CCD8AD1504A59F00B18D34 /* SpeedometerDemo */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 352637742;
+			PBXWorkspaceStateSaveDate = 352637742;
+		};
+		perUserProjectItems = {
+			46C2C17C1504D33100833B8A /* PBXBookmark */ = 46C2C17C1504D33100833B8A /* PBXBookmark */;
+			46CCD8EB1504C08F00B18D34 = 46CCD8EB1504C08F00B18D34 /* PBXTextBookmark */;
+			46CCD8EF1504C08F00B18D34 = 46CCD8EF1504C08F00B18D34 /* PBXBookmark */;
+			46CCD8F01504C08F00B18D34 = 46CCD8F01504C08F00B18D34 /* PBXBookmark */;
+			46CCD91E1504D2EE00B18D34 = 46CCD91E1504D2EE00B18D34 /* PBXTextBookmark */;
+			46CCD9201504D2EE00B18D34 = 46CCD9201504D2EE00B18D34 /* PBXBookmark */;
+			46CCD9211504D2EE00B18D34 = 46CCD9211504D2EE00B18D34 /* PBXTextBookmark */;
+			46CCD9221504D2EE00B18D34 = 46CCD9221504D2EE00B18D34 /* PBXTextBookmark */;
+			46CCD9511504D31F00B18D34 = 46CCD9511504D31F00B18D34 /* PBXBookmark */;
+			46CCD9521504D31F00B18D34 = 46CCD9521504D31F00B18D34 /* PBXBookmark */;
+			46CCD9531504D31F00B18D34 = 46CCD9531504D31F00B18D34 /* PBXBookmark */;
+			46CCD9541504D31F00B18D34 = 46CCD9541504D31F00B18D34 /* PBXBookmark */;
+		};
+		sourceControlManager = 46CCD8B71504A5C100B18D34 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	46C2C17C1504D33100833B8A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 46CCD8E31504C08200B18D34 /* meter.png */;
+	};
+	46CCD8AD1504A59F00B18D34 /* SpeedometerDemo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SpeedometerDemo;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	46CCD8B71504A5C100B18D34 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	46CCD8B81504A5C100B18D34 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	46CCD8EB1504C08F00B18D34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SpeedometerDemoAppDelegate.h */;
+		name = "SpeedometerDemoAppDelegate.h: 4";
+		rLen = 0;
+		rLoc = 56;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 0;
+	};
+	46CCD8EF1504C08F00B18D34 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 46CCD8DF1504C08200B18D34 /* arrow.png */;
+	};
+	46CCD8F01504C08F00B18D34 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 46CCD8E01504C08200B18D34 /* arrow@2x.png */;
+	};
+	46CCD91E1504D2EE00B18D34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SpeedometerDemoViewController.h */;
+		name = "SpeedometerDemoViewController.h: 14";
+		rLen = 1;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 829;
+		vrLoc = 3;
+	};
+	46CCD9201504D2EE00B18D34 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 46CCD8E11504C08200B18D34 /* center_wheel.png */;
+	};
+	46CCD9211504D2EE00B18D34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SpeedometerDemoAppDelegate.m */;
+		name = "SpeedometerDemoAppDelegate.m: 5";
+		rLen = 0;
+		rLoc = 59;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 0;
+	};
+	46CCD9221504D2EE00B18D34 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SpeedometerDemoViewController.m */;
+		name = "SpeedometerDemoViewController.m: 191";
+		rLen = 12;
+		rLoc = 4909;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 1345;
+	};
+	46CCD9511504D31F00B18D34 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 46CCD8E21504C08200B18D34 /* center_wheel@2x.png */;
+	};
+	46CCD9521504D31F00B18D34 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 46CCD8E41504C08200B18D34 /* meter@2x.png */;
+	};
+	46CCD9531504D31F00B18D34 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 46CCD8E31504C08200B18D34 /* meter.png */;
+	};
+	46CCD9541504D31F00B18D34 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 46CCD8E31504C08200B18D34 /* meter.png */;
+	};
+}
