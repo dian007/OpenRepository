@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932FC0B415CEA1FA00033089 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932FC0B315CEA1FA00033089 /* UIKit.framework */; };
+		932FC0B615CEA1FA00033089 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932FC0B515CEA1FA00033089 /* Foundation.framework */; };
+		932FC0B815CEA1FA00033089 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932FC0B715CEA1FA00033089 /* CoreGraphics.framework */; };
+		932FC0BE15CEA1FA00033089 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 932FC0BC15CEA1FA00033089 /* InfoPlist.strings */; };
+		932FC0C015CEA1FA00033089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 932FC0BF15CEA1FA00033089 /* main.m */; };
+		932FC0C415CEA1FA00033089 /* SBMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 932FC0C315CEA1FA00033089 /* SBMAppDelegate.m */; };
+		932FC0C715CEA1FB00033089 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932FC0C515CEA1FB00033089 /* MainStoryboard.storyboard */; };
+		932FC0CA15CEA1FB00033089 /* SBMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932FC0C915CEA1FB00033089 /* SBMFirstViewController.m */; };
+		932FC0CC15CEA1FB00033089 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 932FC0CB15CEA1FB00033089 /* first.png */; };
+		932FC0CE15CEA1FB00033089 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932FC0CD15CEA1FB00033089 /* first@2x.png */; };
+		932FC0D115CEA1FB00033089 /* SBMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932FC0D015CEA1FB00033089 /* SBMSecondViewController.m */; };
+		932FC0D315CEA1FB00033089 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 932FC0D215CEA1FB00033089 /* second.png */; };
+		932FC0D515CEA1FB00033089 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932FC0D415CEA1FB00033089 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		932FC0AF15CEA1FA00033089 /* StoryBoardModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoardModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		932FC0B315CEA1FA00033089 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		932FC0B515CEA1FA00033089 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		932FC0B715CEA1FA00033089 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		932FC0BB15CEA1FA00033089 /* StoryBoardModal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardModal-Info.plist"; sourceTree = "<group>"; };
+		932FC0BD15CEA1FA00033089 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		932FC0BF15CEA1FA00033089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		932FC0C115CEA1FA00033089 /* StoryBoardModal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryBoardModal-Prefix.pch"; sourceTree = "<group>"; };
+		932FC0C215CEA1FA00033089 /* SBMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBMAppDelegate.h; sourceTree = "<group>"; };
+		932FC0C315CEA1FA00033089 /* SBMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBMAppDelegate.m; sourceTree = "<group>"; };
+		932FC0C615CEA1FB00033089 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		932FC0C815CEA1FB00033089 /* SBMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBMFirstViewController.h; sourceTree = "<group>"; };
+		932FC0C915CEA1FB00033089 /* SBMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBMFirstViewController.m; sourceTree = "<group>"; };
+		932FC0CB15CEA1FB00033089 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		932FC0CD15CEA1FB00033089 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		932FC0CF15CEA1FB00033089 /* SBMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBMSecondViewController.h; sourceTree = "<group>"; };
+		932FC0D015CEA1FB00033089 /* SBMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBMSecondViewController.m; sourceTree = "<group>"; };
+		932FC0D215CEA1FB00033089 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		932FC0D415CEA1FB00033089 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932FC0AC15CEA1FA00033089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932FC0B415CEA1FA00033089 /* UIKit.framework in Frameworks */,
+				932FC0B615CEA1FA00033089 /* Foundation.framework in Frameworks */,
+				932FC0B815CEA1FA00033089 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932FC0A415CEA1FA00033089 = {
+			isa = PBXGroup;
+			children = (
+				932FC0B915CEA1FA00033089 /* StoryBoardModal */,
+				932FC0B215CEA1FA00033089 /* Frameworks */,
+				932FC0B015CEA1FA00033089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		932FC0B015CEA1FA00033089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932FC0AF15CEA1FA00033089 /* StoryBoardModal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932FC0B215CEA1FA00033089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				932FC0B315CEA1FA00033089 /* UIKit.framework */,
+				932FC0B515CEA1FA00033089 /* Foundation.framework */,
+				932FC0B715CEA1FA00033089 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		932FC0B915CEA1FA00033089 /* StoryBoardModal */ = {
+			isa = PBXGroup;
+			children = (
+				932FC0C215CEA1FA00033089 /* SBMAppDelegate.h */,
+				932FC0C315CEA1FA00033089 /* SBMAppDelegate.m */,
+				932FC0C515CEA1FB00033089 /* MainStoryboard.storyboard */,
+				932FC0C815CEA1FB00033089 /* SBMFirstViewController.h */,
+				932FC0C915CEA1FB00033089 /* SBMFirstViewController.m */,
+				932FC0CB15CEA1FB00033089 /* first.png */,
+				932FC0CD15CEA1FB00033089 /* first@2x.png */,
+				932FC0CF15CEA1FB00033089 /* SBMSecondViewController.h */,
+				932FC0D015CEA1FB00033089 /* SBMSecondViewController.m */,
+				932FC0D215CEA1FB00033089 /* second.png */,
+				932FC0D415CEA1FB00033089 /* second@2x.png */,
+				932FC0BA15CEA1FA00033089 /* Supporting Files */,
+			);
+			path = StoryBoardModal;
+			sourceTree = "<group>";
+		};
+		932FC0BA15CEA1FA00033089 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				932FC0BB15CEA1FA00033089 /* StoryBoardModal-Info.plist */,
+				932FC0BC15CEA1FA00033089 /* InfoPlist.strings */,
+				932FC0BF15CEA1FA00033089 /* main.m */,
+				932FC0C115CEA1FA00033089 /* StoryBoardModal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932FC0AE15CEA1FA00033089 /* StoryBoardModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932FC0D815CEA1FB00033089 /* Build configuration list for PBXNativeTarget "StoryBoardModal" */;
+			buildPhases = (
+				932FC0AB15CEA1FA00033089 /* Sources */,
+				932FC0AC15CEA1FA00033089 /* Frameworks */,
+				932FC0AD15CEA1FA00033089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryBoardModal;
+			productName = StoryBoardModal;
+			productReference = 932FC0AF15CEA1FA00033089 /* StoryBoardModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932FC0A615CEA1FA00033089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SBM;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = ahwkong;
+			};
+			buildConfigurationList = 932FC0A915CEA1FA00033089 /* Build configuration list for PBXProject "StoryBoardModal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 932FC0A415CEA1FA00033089;
+			productRefGroup = 932FC0B015CEA1FA00033089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932FC0AE15CEA1FA00033089 /* StoryBoardModal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		932FC0AD15CEA1FA00033089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932FC0BE15CEA1FA00033089 /* InfoPlist.strings in Resources */,
+				932FC0C715CEA1FB00033089 /* MainStoryboard.storyboard in Resources */,
+				932FC0CC15CEA1FB00033089 /* first.png in Resources */,
+				932FC0CE15CEA1FB00033089 /* first@2x.png in Resources */,
+				932FC0D315CEA1FB00033089 /* second.png in Resources */,
+				932FC0D515CEA1FB00033089 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932FC0AB15CEA1FA00033089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932FC0C015CEA1FA00033089 /* main.m in Sources */,
+				932FC0C415CEA1FA00033089 /* SBMAppDelegate.m in Sources */,
+				932FC0CA15CEA1FB00033089 /* SBMFirstViewController.m in Sources */,
+				932FC0D115CEA1FB00033089 /* SBMSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		932FC0BC15CEA1FA00033089 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932FC0BD15CEA1FA00033089 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		932FC0C515CEA1FB00033089 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932FC0C615CEA1FB00033089 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		932FC0D615CEA1FB00033089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		932FC0D715CEA1FB00033089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932FC0D915CEA1FB00033089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryBoardModal/StoryBoardModal-Prefix.pch";
+				INFOPLIST_FILE = "StoryBoardModal/StoryBoardModal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		932FC0DA15CEA1FB00033089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryBoardModal/StoryBoardModal-Prefix.pch";
+				INFOPLIST_FILE = "StoryBoardModal/StoryBoardModal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932FC0A915CEA1FA00033089 /* Build configuration list for PBXProject "StoryBoardModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932FC0D615CEA1FB00033089 /* Debug */,
+				932FC0D715CEA1FB00033089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932FC0D815CEA1FB00033089 /* Build configuration list for PBXNativeTarget "StoryBoardModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932FC0D915CEA1FB00033089 /* Debug */,
+				932FC0DA15CEA1FB00033089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 932FC0A615CEA1FA00033089 /* Project object */;
+}
